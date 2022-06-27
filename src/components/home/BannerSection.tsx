@@ -28,7 +28,7 @@ const BannerSection: React.FC<BannerSectionProps> = () => {
                 >
                   <div className="elementor-widget-container">
                     <h4 className="elementor-heading-title elementor-size-default">
-                      Hello!
+                      Hola!
                     </h4>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ const BannerSection: React.FC<BannerSectionProps> = () => {
                 >
                   <div className="elementor-widget-container">
                     <h1 className="elementor-heading-title elementor-size-default">
-                      I'm Brianna
+                      Soy Nicole!
                     </h1>
                   </div>
                 </div>
@@ -100,18 +100,18 @@ const BannerSection: React.FC<BannerSectionProps> = () => {
                       <img
                         width="600"
                         height="600"
-                        src="./assets/Mask-Group-5.webp"
+                        src="./assets/profile-image.png"
                         className="attachment-full size-full"
                         alt=""
                         loading="lazy"
-                        srcSet="
-                                              https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5.png         600w,
-                                              https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-300x300.png 300w,
-                                              https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-150x150.png 150w,
-                                              https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-230x230.png 230w,
-                                              https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-350x350.png 350w,
-                                              https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-480x480.png 480w
-                                            "
+                        // srcSet="
+                        //                       https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5.png         600w,
+                        //                       https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-300x300.png 300w,
+                        //                       https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-150x150.png 150w,
+                        //                       https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-230x230.png 230w,
+                        //                       https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-350x350.png 350w,
+                        //                       https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Mask-Group-5-480x480.png 480w
+                        //                     "
                         sizes="(max-width: 600px) 100vw, 600px"
                       />
                     </div>
