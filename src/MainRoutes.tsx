@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage";
 const MainRoutes = () => {
   return (
     <Router>
-      <MainHeader />
+      {/* <MainHeader /> */}
       <Switch>
         <Route exact path="/" component={HomePage} />
         {/* <Route path="/about" component={AboutPage} /> */}

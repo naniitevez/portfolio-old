@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface MainHeaderProps {}
 
@@ -9,15 +10,15 @@ const MainHeader: React.FC<MainHeaderProps> = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-8 col-xs-12">
-              <a href="https://demo.athemes.com/sp-resume/" title="Resume">
+              <Link to="/" title="Resume">
                 <img
                   width="150"
                   height="44"
                   className="site-logo"
-                  src="./Resume_files/Freelance.webp"
+                  src="./assets/Freelance.webp"
                   alt="Resume"
                 />
-              </a>
+              </Link>
             </div>
             <div className="col-md-8 col-sm-4 col-xs-12">
               <div className="btn-menu" aria-expanded="false">
@@ -34,45 +35,35 @@ const MainHeader: React.FC<MainHeaderProps> = () => {
                       id="menu-item-16"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-16"
                     >
-                      <a
-                        href="https://demo.athemes.com/sp-resume/"
-                        aria-current="page"
-                      >
+                      <Link to="/" aria-current="page">
                         My front page
-                      </a>
+                      </Link>
                     </li>
-                    <li
+                    {/* <li
                       id="menu-item-17"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"
                     >
-                      <a href="https://demo.athemes.com/sp-resume/about/">
+                      <Link to="/about">
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li
                       id="menu-item-18"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"
                     >
-                      <a href="https://demo.athemes.com/sp-resume/portfolio/">
+                      <Link to="/portfolio">
                         Portfolio
-                      </a>
+                      </Link>
                     </li>
                     <li
                       id="menu-item-19"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"
                     >
-                      <a href="https://demo.athemes.com/sp-resume/blog/">
+                      <Link to="/blog">
                         My blog page
-                      </a>
+                      </Link>
                     </li>
-                    <li
-                      id="menu-item-20"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
-                    >
-                      <a href="https://demo.athemes.com/sp-resume/contacts/">
-                        Contacts
-                      </a>
-                    </li>
+                     */}
                   </ul>
                 </div>
               </nav>
