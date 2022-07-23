@@ -1890,7 +1890,7 @@ Blog
 		margin-bottom: 0;
 	}
 	body:not(.elementor-page):not(.panel-layout) .entry-content h1 {
-		margin-top: 1em;
+		/* margin-top: 0.5em; */
 		margin-bottom: 0.5em;	
 	}
 	body:not(.elementor-page):not(.panel-layout) .entry-content h2,

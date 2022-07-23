@@ -1,4 +1,5 @@
 import React from "react";
+import PortfolioProject from "./components/PortfolioProject";
 
 interface MyWorksSectionProps {}
 
@@ -87,123 +88,23 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                   >
                     <div className="elementor-container elementor-column-gap-default">
                       <div className="elementor-row">
-                        <div
-                          className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-add2783"
-                          data-id="add2783"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                className="elementor-element elementor-element-a450c4f elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                data-id="a450c4f"
-                                data-element_type="widget"
-                                data-widget_type="image-box.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="elementor-image-box-wrapper">
-                                    <figure className="elementor-image-box-img">
-                                      <img
-                                        width="365"
-                                        height="380"
-                                        src="./assets/port-1.webp"
-                                        className="attachment-full size-full"
-                                        alt=""
-                                        loading="lazy"
-                                      />
-                                    </figure>
-                                    <div className="elementor-image-box-content">
-                                      <h3 className="elementor-image-box-title">
-                                        Creative Adventer
-                                      </h3>
-                                      <p className="elementor-image-box-description">
-                                        Graphic $ Branding
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f76fcf5"
-                          data-id="f76fcf5"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                className="elementor-element elementor-element-adf5da0 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                data-id="adf5da0"
-                                data-element_type="widget"
-                                data-widget_type="image-box.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="elementor-image-box-wrapper">
-                                    <figure className="elementor-image-box-img">
-                                      <img
-                                        width="365"
-                                        height="380"
-                                        src="./assets/port-2.webp"
-                                        className="attachment-full size-full"
-                                        alt=""
-                                        loading="lazy"
-                                      />
-                                    </figure>
-                                    <div className="elementor-image-box-content">
-                                      <h3 className="elementor-image-box-title">
-                                        Chairman Of The Board
-                                      </h3>
-                                      <p className="elementor-image-box-description">
-                                        Photography &amp; Editing
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-24309d0"
-                          data-id="24309d0"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                className="elementor-element elementor-element-a14b4fb elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                data-id="a14b4fb"
-                                data-element_type="widget"
-                                data-widget_type="image-box.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="elementor-image-box-wrapper">
-                                    <figure className="elementor-image-box-img">
-                                      <img
-                                        width="365"
-                                        height="380"
-                                        src="./assets/port-3.webp"
-                                        className="attachment-full size-full"
-                                        alt=""
-                                        loading="lazy"
-                                      />
-                                    </figure>
-                                    <div className="elementor-image-box-content">
-                                      <h3 className="elementor-image-box-title">
-                                        Chiropractic Cracking
-                                      </h3>
-                                      <p className="elementor-image-box-description">
-                                        Kitchen Art
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <PortfolioProject
+                          containerId="add2783"
+                          itemId="a450c4f"
+                          imageSrc="/assets/port-1.webp"
+                          alt=""
+                          title="Creative Adventer"
+                          description="Graphic $ Branding"
+                        />
+
+                        <PortfolioProject
+                          containerId="f76fcf5"
+                          itemId="adf5da0"
+                          imageSrc="/assets/port-2.webp"
+                          alt=""
+                          title="Chairman Of The Board"
+                          description="Photography &amp; Editing"
+                        />
                       </div>
                     </div>
                   </section>
@@ -214,123 +115,14 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                   >
                     <div className="elementor-container elementor-column-gap-default">
                       <div className="elementor-row">
-                        <div
-                          className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-673d443"
-                          data-id="673d443"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                className="elementor-element elementor-element-c9d21dd elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                data-id="c9d21dd"
-                                data-element_type="widget"
-                                data-widget_type="image-box.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="elementor-image-box-wrapper">
-                                    <figure className="elementor-image-box-img">
-                                      <img
-                                        width="365"
-                                        height="380"
-                                        src="./assets/port-4.webp"
-                                        className="attachment-full size-full"
-                                        alt=""
-                                        loading="lazy"
-                                      />
-                                    </figure>
-                                    <div className="elementor-image-box-content">
-                                      <h3 className="elementor-image-box-title">
-                                        Kitchen Design Interior
-                                      </h3>
-                                      <p className="elementor-image-box-description">
-                                        Photography
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f66b24c"
-                          data-id="f66b24c"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                className="elementor-element elementor-element-09bca95 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                data-id="09bca95"
-                                data-element_type="widget"
-                                data-widget_type="image-box.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="elementor-image-box-wrapper">
-                                    <figure className="elementor-image-box-img">
-                                      <img
-                                        width="365"
-                                        height="380"
-                                        src="./assets/port-5.webp"
-                                        className="attachment-full size-full"
-                                        alt=""
-                                        loading="lazy"
-                                      />
-                                    </figure>
-                                    <div className="elementor-image-box-content">
-                                      <h3 className="elementor-image-box-title">
-                                        Creative Adventer
-                                      </h3>
-                                      <p className="elementor-image-box-description">
-                                        Graphic
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-025738f"
-                          data-id="025738f"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                className="elementor-element elementor-element-3260962 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                data-id="3260962"
-                                data-element_type="widget"
-                                data-widget_type="image-box.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="elementor-image-box-wrapper">
-                                    <figure className="elementor-image-box-img">
-                                      <img
-                                        width="365"
-                                        height="380"
-                                        src="./assets/port-6.webp"
-                                        className="attachment-full size-full"
-                                        alt=""
-                                        loading="lazy"
-                                      />
-                                    </figure>
-                                    <div className="elementor-image-box-content">
-                                      <h3 className="elementor-image-box-title">
-                                        Chairman Of The Board
-                                      </h3>
-                                      <p className="elementor-image-box-description">
-                                        Graphic $ Branding
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <PortfolioProject
+                          containerId="673d443"
+                          itemId="c9d21dd"
+                          imageSrc="/assets/port-4.webp"
+                          alt=""
+                          title="Creative Adventer"
+                          description="Graphic $ Branding"
+                        />
                       </div>
                     </div>
                   </section>
