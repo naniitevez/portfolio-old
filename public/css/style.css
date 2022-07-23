@@ -162,7 +162,7 @@ Social
 .header-account {
 	line-height: 1;
 }
-.social-section.style2 .social-menu-widget li a {
+.social-section.style2 .social-menu-widget li a img{
 	color: #fff !important;
 	background-color: #47425d;
 	width: 40px;

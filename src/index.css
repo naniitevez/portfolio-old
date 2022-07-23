@@ -1168,9 +1168,9 @@ input::placeholder {
   margin: 0 7.5px;
 }
 
-#sidebar-footer .social-section.style2 .social-menu-widget li a {
+#sidebar-footer .social-section.style2 .social-menu-widget li a img {
   color: #000 !important;
-  background-color: #fff;
+  /* background-color: #fff; */
   line-height: 37px;
 }
 
