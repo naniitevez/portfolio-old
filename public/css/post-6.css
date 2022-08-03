@@ -164,13 +164,14 @@
 .elementor-6 .elementor-element.elementor-element-c6a3d2c .elementor-button {
   font-size: 16px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 15px;
   fill: #232227;
   color: #232227;
   background-color: rgba(0, 0, 0, 0);
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  border-color: #545cf5;
+  /* border-color: #545cf5; */
+  border-color: #545cf591;
   border-radius: 3px 3px 3px 3px;
   padding: 14px 33px 15px 33px;
 }

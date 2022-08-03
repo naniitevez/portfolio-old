@@ -3018,6 +3018,12 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 .elementor-widget-button .elementor-button .elementor-button-danger {
   background-color: #d9534f;
 }
+
+.elementor-image-box-wrapper .elementor-widget-button {
+  width: 100%;
+  box-shadow: 2px 15px 15px -12px rgba(0, 0, 0, 0.2);
+  padding-bottom: 15px;
+}
 .elementor-tab-title a {
   color: inherit;
 }
@@ -5868,10 +5874,10 @@ button.swiper-pagination-bullet {
   vertical-align: middle;
   display: inline-block;
 }
-.elementor-widget-image-box .elementor-image-box-content {
+/* .elementor-widget-image-box .elementor-image-box-content {
   width: 100%;
   box-shadow: 2px 15px 15px -12px rgba(0, 0, 0, 0.2);
-}
+} */
 @media (min-width: 768px) {
   .elementor-widget-image-box.elementor-position-left
     .elementor-image-box-wrapper,

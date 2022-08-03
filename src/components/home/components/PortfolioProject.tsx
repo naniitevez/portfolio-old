@@ -52,7 +52,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
                     {description}
                   </p>
                 </div>
-                {/* <OutlineButton hrefLink={hrefLink} title="Visitar sitio" /> */}
+                <OutlineButton hrefLink={hrefLink} title="Visitar sitio" />
               </div>
             </div>
           </div>
