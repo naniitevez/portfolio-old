@@ -5870,6 +5870,7 @@ button.swiper-pagination-bullet {
 }
 .elementor-widget-image-box .elementor-image-box-content {
   width: 100%;
+  box-shadow: 2px 15px 15px -12px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
   .elementor-widget-image-box.elementor-position-left

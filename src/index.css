@@ -1435,3 +1435,6 @@ a.footer-phone {
   }
 }
 /* end about page css */
+ .elementor-image-box-wrapper:hover {
+  background: #f7f7f7b5;
+ }

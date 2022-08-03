@@ -21,7 +21,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
   description,
 }) => {
   return (
-    <div
+    <div 
       className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-add2783"
       data-id={containerId}
       data-element_type="column"
@@ -52,7 +52,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
                     {description}
                   </p>
                 </div>
-                <OutlineButton hrefLink={hrefLink} title="Visitar sitio" />
+                {/* <OutlineButton hrefLink={hrefLink} title="Visitar sitio" /> */}
               </div>
             </div>
           </div>
