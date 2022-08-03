@@ -30,7 +30,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                   >
                     <div className="elementor-widget-container">
                       <h2 className="elementor-heading-title elementor-size-default">
-                        Check Out Recent Work
+                        Mis proyectos
                       </h2>
                     </div>
                   </div>
@@ -54,9 +54,11 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                   >
                     <div className="elementor-widget-container">
                       <div className="elementor-text-editor elementor-clearfix">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        Risus commodo viverra <br />
-                        maecenas accumsan lacus vel facilisis.
+                        Estos son algunos de los proyectos en los que trabajé y
+                        <br />
+                        de los cuales me siento muy orgullosa.
+                        <br />
+                        Te invito a darles un vistazo!
                       </div>
                     </div>
                   </div>
@@ -91,24 +93,36 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                         <PortfolioProject
                           containerId="add2783"
                           itemId="a450c4f"
-                          imageSrc="/assets/port-1.webp"
+                          imageSrc="/images/Swappy.png"
                           alt=""
-                          title="Creative Adventer"
+                          hrefLink="https://play.google.com/store/apps/details?id=com.aivenweb.swappy"
+                          title="Swappy - Tu Mundo Crypto"
                           description="Graphic $ Branding"
                         />
 
                         <PortfolioProject
                           containerId="f76fcf5"
                           itemId="adf5da0"
-                          imageSrc="/assets/port-2.webp"
+                          imageSrc="/images/Hotel-Valle-del-Volcan.png"
                           alt=""
-                          title="Chairman Of The Board"
+                          hrefLink="https://hotelvalledelvolcan.info/"
+                          title="Hotel Valle del Volcán"
+                          description="Photography &amp; Editing"
+                        />
+                        
+                        <PortfolioProject
+                          containerId="f76fcf5"
+                          itemId="adf5da0"
+                          imageSrc="/images/Call-for-speakers.png"
+                          alt=""
+                          hrefLink="https://latinonet.online/callforspeakers/"
+                          title="Call For Speakers Latino .NET Online"
                           description="Photography &amp; Editing"
                         />
                       </div>
                     </div>
                   </section>
-                  <section
+                  {/* <section
                     className="elementor-section elementor-inner-section elementor-element elementor-element-808fed6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="808fed6"
                     data-element_type="section"
@@ -125,7 +139,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                         />
                       </div>
                     </div>
-                  </section>
+                  </section> */}
                 </div>
               </div>
             </div>

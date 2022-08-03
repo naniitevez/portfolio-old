@@ -1,10 +1,12 @@
 import React from "react";
+import OutlineButton from "../../OutlineButton";
 
 interface PortfolioProjectProps {
   containerId: string;
   itemId: string;
   imageSrc: string;
   alt: string;
+  hrefLink: string;
   title: string;
   description: string;
 }
@@ -14,6 +16,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
   itemId,
   imageSrc,
   alt,
+  hrefLink,
   title,
   description,
 }) => {
@@ -49,6 +52,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
                     {description}
                   </p>
                 </div>
+                <OutlineButton hrefLink={hrefLink} title="Visitar sitio" />
               </div>
             </div>
           </div>
