@@ -34,11 +34,9 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                         <a
                           href="https://www.linkedin.com/in/nicoletevez/"
                           target="_blank"
+                          rel="noreferrer"
                         >
-                          <img
-                            src="/images/icons/icono-linkedin.png"
-                            alt=""
-                          />
+                          <img src="/images/icons/icono-linkedin.png" alt="" />
                           <span className="screen-reader-text">LinkedIn</span>
                         </a>
                       </li>
@@ -46,11 +44,12 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                         id="menu-item-158"
                         className="menu-item menu-item-type-custom menu-item-object-custom menu-item-158"
                       >
-                        <a href="https://github.com/naniitevez" target="_blank">
-                          <img
-                            src="/images/icons/icono-github.png"
-                            alt=""
-                          />
+                        <a
+                          href="https://github.com/naniitevez"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/images/icons/icono-github.png" alt="" />
 
                           <span className="screen-reader-text">GitHub</span>
                         </a>
@@ -62,11 +61,9 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                         <a
                           href="https://twitter.com/NicoleTevez1"
                           target="_blank"
+                          rel="noreferrer"
                         >
-                          <img
-                            src="/images/icons/icono-twitter.png"
-                            alt=""
-                          />
+                          <img src="/images/icons/icono-twitter.png" alt="" />
                           <span className="screen-reader-text">Twitter</span>
                         </a>
                       </li>
