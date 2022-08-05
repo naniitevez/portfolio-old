@@ -93,7 +93,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                         <PortfolioProject
                           containerId="add2783"
                           itemId="a450c4f"
-                          imageSrc="/images/Swappy.png"
+                          imageSrc="/images/projects/Swappy.png"
                           alt=""
                           hrefLink="https://play.google.com/store/apps/details?id=com.aivenweb.swappy"
                           title="Swappy - Tu Mundo Crypto"
@@ -103,7 +103,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                         <PortfolioProject
                           containerId="f76fcf5"
                           itemId="adf5da0"
-                          imageSrc="/images/Hotel-Valle-del-Volcan.png"
+                          imageSrc="/images/projects/Hotel-Valle-del-Volcan.png"
                           alt=""
                           hrefLink="https://hotelvalledelvolcan.info/"
                           title="Hotel Valle del Volcán"
@@ -113,7 +113,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                         <PortfolioProject
                           containerId="f76fcf5"
                           itemId="adf5da0"
-                          imageSrc="/images/Call-for-speakers.png"
+                          imageSrc="/images/projects/Call-for-speakers.png"
                           alt=""
                           hrefLink="https://latinonet.online/callforspeakers/"
                           title="Call For Speakers Latino .NET Online"

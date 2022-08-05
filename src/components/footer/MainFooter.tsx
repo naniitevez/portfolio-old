@@ -36,7 +36,7 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                           target="_blank"
                         >
                           <img
-                            src="/images/icono-linkedin.png"
+                            src="/images/icons/icono-linkedin.png"
                             alt=""
                           />
                           <span className="screen-reader-text">LinkedIn</span>
@@ -48,7 +48,7 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                       >
                         <a href="https://github.com/naniitevez" target="_blank">
                           <img
-                            src="/images/icono-github.png"
+                            src="/images/icons/icono-github.png"
                             alt=""
                           />
 
@@ -64,7 +64,7 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                           target="_blank"
                         >
                           <img
-                            src="https://www.asoaga.com/wp-content/uploads/2019/02/icono-twitter.png"
+                            src="/images/icons/icono-twitter.png"
                             alt=""
                           />
                           <span className="screen-reader-text">Twitter</span>

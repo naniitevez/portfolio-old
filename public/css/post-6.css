@@ -1431,14 +1431,15 @@
   .elementor-element.elementor-element-97cfc3b
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Background-1.png");
+    background: #f8f8f6;
+  /* background-image: url("https://demo.athemes.com/sp-resume/wp-content/uploads/sites/106/2020/01/Background-1.png"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .elementor-6 .elementor-element.elementor-element-97cfc3b {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 76px 0px 76px 0px;
+  padding: 56px 0px;
 }
 .elementor-6
   .elementor-element.elementor-element-97cfc3b

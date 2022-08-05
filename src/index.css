@@ -1435,6 +1435,25 @@ a.footer-phone {
   }
 }
 /* end about page css */
- .elementor-image-box-wrapper:hover {
+.elementor-image-box-wrapper:hover {
   background: #f7f7f7b5;
- }
+}
+
+
+/* Knowledge section */
+
+#knowledge-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+#knowledge-section-container .icon-component-container {
+  text-align: center;
+  /* background: transparent;
+  border: 2px solid #545cf5;
+  border-radius: 4px; */
+  width: auto;
+  height: auto;
+  padding: 5px 5px;
+  margin: 5px;
+}
