@@ -21,7 +21,7 @@ const HeaderPresentation: React.FC<HeaderPresentationProps> = ({description}) =>
           >
             <div className="elementor-widget-container">
               <h4 className="elementor-heading-title elementor-size-default">
-                Hola!
+                Hola 😉️!
               </h4>
             </div>
           </div>
@@ -33,7 +33,7 @@ const HeaderPresentation: React.FC<HeaderPresentationProps> = ({description}) =>
           >
             <div className="elementor-widget-container">
               <h1 className="elementor-heading-title elementor-size-default">
-                Yo soy Nicole!
+                Yo soy <span>Nicole!</span>
               </h1>
             </div>
           </div>

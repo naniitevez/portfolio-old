@@ -35,18 +35,26 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                           href="https://www.linkedin.com/in/nicoletevez/"
                           target="_blank"
                         >
-                          <img src="https://www.asoaga.com/wp-content/uploads/2019/02/icono-linkedin.png" alt="" />
+                          <img
+                            src="/images/icono-linkedin.png"
+                            alt=""
+                          />
                           <span className="screen-reader-text">LinkedIn</span>
                         </a>
                       </li>
-                      {/* <li
+                      <li
                         id="menu-item-158"
                         className="menu-item menu-item-type-custom menu-item-object-custom menu-item-158"
                       >
                         <a href="https://github.com/naniitevez" target="_blank">
+                          <img
+                            src="/images/icono-github.png"
+                            alt=""
+                          />
+
                           <span className="screen-reader-text">GitHub</span>
                         </a>
-                      </li> */}
+                      </li>
                       <li
                         id="menu-item-159"
                         className="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"
@@ -55,7 +63,10 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                           href="https://twitter.com/NicoleTevez1"
                           target="_blank"
                         >
-                          <img src="https://www.asoaga.com/wp-content/uploads/2019/02/icono-twitter.png" alt="" />
+                          <img
+                            src="https://www.asoaga.com/wp-content/uploads/2019/02/icono-twitter.png"
+                            alt=""
+                          />
                           <span className="screen-reader-text">Twitter</span>
                         </a>
                       </li>

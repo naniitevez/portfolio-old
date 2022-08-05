@@ -12,10 +12,7 @@ const AboutMeSection: React.FC<AboutMeSectionProps> = () => {
     >
       <div className="elementor-container elementor-column-gap-default">
         <div className="elementor-row">
-          <Presentation
-            description="I'm a Jane Brianna, UX/UI designer Austin based, who loves
-                clean, simple &amp; unique design."
-          />
+          <Presentation description="😍️ Amante del verano, la hamburguesa 🍔 con papas fritas 🍟 y una buena cerveza fría 🍻." />
           <div
             className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d9dd441"
             data-id="d9dd441"

@@ -4905,6 +4905,9 @@ button.swiper-pagination-bullet {
   margin: 0;
   line-height: 1;
 }
+.elementor-heading-title span {
+  color: #545cf5;
+}
 .elementor-widget-heading
   .elementor-heading-title[class*="elementor-size-"]
   > a {

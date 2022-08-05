@@ -50,6 +50,7 @@ Social
 	margin: 0 auto;
 	display: table;
 	text-align: center;
+	margin-top: 20px;
 }
 .social-menu-widget a,
 .social-menu-widget a:hover {
@@ -85,16 +86,14 @@ Social
 	-webkit-backface-visibility: visible;
 	backface-visibility: visible;
 }
-.social-menu-widget li a:hover,
-.social-widget a:hover {
-}
+
 .social-menu-widget a:before {
 	font-size: 50px;
 	text-shadow: 0 0 1px #222;
 }
-.social-links a[href*="twitter.com"]::before {
+/* .social-links a[href*="twitter.com"]::before {
 	content: '\f099';
-}
+} */
 .social-links a[href*="facebook.com"]::before {
 	content: '\f09a';
 }
@@ -122,9 +121,9 @@ Social
 .social-links a[href*="instagram.com"]::before {
 	content: '\f16d';
 }
-.social-links a[href*="linkedin.com"]::before {
+/* .social-links a[href*="linkedin.com"]::before {
 	content: '\f0e1';
-}
+} */
 .social-links a[href*="foursquare.com"]::before {
 	content: '\f180';
 }
@@ -175,10 +174,10 @@ Social
 .social-section.style2 .social-menu-widget li a:hover {
 	background-color: #e64e4e;
 }
-.social-section.style2 .social-menu-widget a:before {
+/* .social-section.style2 .social-menu-widget a:before {
 	font-size: 14px;
 	text-shadow: none;
-}
+} */
 /*--------------------------------------------------------------
 Navigation
 --------------------------------------------------------------*/
