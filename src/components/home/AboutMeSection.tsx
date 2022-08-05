@@ -29,16 +29,11 @@ const AboutMeSection: React.FC<AboutMeSectionProps> = () => {
                   <div className="elementor-widget-container">
                     <div className="elementor-text-editor elementor-clearfix">
                       <p>
-                        Logo distribution and brand recognition are an integral
-                        component to building a company and its client base. So,
-                        just to get the promotional product out there and off
-                        the shelf is an important part of the overall goal.
-                      </p>
-                      <p>
-                        I think that I lost the pen sometime that week, but I’ll
-                        never forget the lesson of promotional advertising
-                        specialties that I learned from the man that gave me my
-                        first god-awful, thankless job.
+                        Comencé a estudiar programación 🤓️ durante la pandemia,
+                        dejando mi carrera (psicología) de lado cuando mi vida y
+                        la vida de todos estaban cambiando, y ni siquiera
+                        imaginé que iba a encontrar algo que me guste hacer
+                        tanto como crear cosas y verlas crecer 👐🏻️.
                       </p>
                     </div>
                   </div>
@@ -62,18 +57,14 @@ const AboutMeSection: React.FC<AboutMeSectionProps> = () => {
                   <div className="elementor-widget-container">
                     <div className="elementor-text-editor elementor-clearfix">
                       <p>
-                        When I was just starting 6th grade I got my first job.
-                        Paperboy! Boy, was I excited. At that time I had spent a
-                        lot of time actually playing the video game Paperboy, so
-                        I knew I had what it took to get the job done. But, its
-                        just not that easy.
-                        <br />
-                        <br />
-                        The StarTribune doesn’t just hand out the responsibility
-                        of informing their community’s citizenry on a daily
-                        basis to just any fool that says they’d like a shot at
-                        paper delivery greatness. Nope, I had to interview for
-                        this job.
+                        Me gustan mucho los perritos 🐕️💕️ tengo 3 Pitbulls que
+                        viven con mis padres, me gusta ver peliculas 🍿️ y
+                        series, y tengo la costumbre de poner vídeos para que
+                        hagan ruido de fondo👀️.
+                      </p>
+                      <p>
+                        Y hace poco me sume a la organización de la comunidad de
+                        React Buenos Aires 💪🏻️.
                       </p>
                     </div>
                   </div>
