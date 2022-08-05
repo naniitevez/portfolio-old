@@ -19,6 +19,7 @@ const KnowledgeSection: React.FC<KnowledgeSectionProps> = () => {
             <IconComponent title="Javascript" logoImage="/images/icons/javascript.png" />
             <IconComponent title="Typescript" logoImage="/images/icons/typescript.png" />
             <IconComponent title="React Js | React Native" logoImage="/images/icons/react.png" />
+            <IconComponent title="Next Js" logoImage="/images/icons/next.png" />
             <IconComponent title="Ionic" logoImage="/images/icons/ionic.png" />
             <IconComponent title="Git" logoImage="/images/icons/git.png" />
             <IconComponent title="GitHub" logoImage="/images/icons/github.png" />
