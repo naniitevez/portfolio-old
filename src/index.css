@@ -312,10 +312,16 @@ body {
   .slide-inner {
     min-height: initial;
   }
+  .page-wrap {
+    margin-top: -64px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .text-slider .maintitle {
     font-size: 32px;
+  }
+  .page-wrap {
+    margin-top: -65px;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -324,6 +330,9 @@ body {
   }
   .text-slider .subtitle {
     font-size: 16px;
+  }
+  .page-wrap {
+    margin-top: -70px;
   }
 }
 .header-custom-item .roll-button {
@@ -1445,6 +1454,7 @@ a.footer-phone {
 #knowledge-section-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #knowledge-section-container .icon-component-container {

@@ -1525,11 +1525,14 @@
   .elementor-element.elementor-element-51f7e75
   > .elementor-widget-container {
   margin: 0px 0px 20px 0px;
+  text-align: center;
 }
 .elementor-6 .elementor-element.elementor-element-be5e49e {
   --divider-border-style: solid;
   --divider-color: #545cf5;
   --divider-border-width: 4px;
+  display: flex;
+  justify-content: center;
 }
 .elementor-6
   .elementor-element.elementor-element-be5e49e
