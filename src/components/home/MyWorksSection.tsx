@@ -98,6 +98,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                           hrefLink="https://play.google.com/store/apps/details?id=com.aivenweb.swappy"
                           title="Swappy - Tu Mundo Crypto"
                           description="Aplicación para Android"
+                          githubLink="private"
                         />
 
                         <PortfolioProject
@@ -108,6 +109,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                           hrefLink="https://hotelvalledelvolcan.info/"
                           title="Hotel Valle del Volcán"
                           description="Sitio web"
+                          githubLink="https://github.com/aivenweb/hotelvalledelvolcan-website"
                         />
                         
                         <PortfolioProject
@@ -118,6 +120,7 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                           hrefLink="https://latinonet.online/callforspeakers/"
                           title="Call For Speakers Latino .NET Online"
                           description="Aplicación web"
+                          githubLink="https://github.com/latinonetonline/callforspeakers"
                         />
                       </div>
                     </div>

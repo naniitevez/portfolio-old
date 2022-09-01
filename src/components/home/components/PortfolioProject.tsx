@@ -9,6 +9,7 @@ interface PortfolioProjectProps {
   hrefLink: string;
   title: string;
   description: string;
+  githubLink: string;
 }
 
 const PortfolioProject: React.FC<PortfolioProjectProps> = ({
@@ -19,6 +20,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
   hrefLink,
   title,
   description,
+  githubLink
 }) => {
   return (
     <div 
@@ -52,7 +54,7 @@ const PortfolioProject: React.FC<PortfolioProjectProps> = ({
                     {description}
                   </p>
                 </div>
-                <OutlineButton hrefLink={hrefLink} title="Visitar sitio" />
+                <OutlineButton hrefLink={hrefLink} title="Visitar sitio" githubLink={githubLink} />
               </div>
             </div>
           </div>
