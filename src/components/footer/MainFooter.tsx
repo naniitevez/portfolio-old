@@ -15,14 +15,8 @@ const MainFooter: React.FC<MainFooterProps> = () => {
               <aside id="text-2" className="widget widget_text">
                 <div className="textwidget">
                   <p>
-                    info.atheme@gmail.com
+                    nicole.tevez.97@gmail.com
                     <br />
-                    <a
-                      className="footer-phone"
-                      href="tel:(+123) 456 789 456789"
-                    >
-                      (+123).456.789.456789
-                    </a>
                   </p>
                 </div>
               </aside>
@@ -37,24 +31,40 @@ const MainFooter: React.FC<MainFooterProps> = () => {
                         id="menu-item-157"
                         className="menu-item menu-item-type-custom menu-item-object-custom menu-item-157"
                       >
-                        <a href="http://facebook.com/#">
-                          <span className="screen-reader-text">FB</span>
+                        <a
+                          href="https://www.linkedin.com/in/nicoletevez/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/images/icons/icono-linkedin.png" alt="" />
+                          <span className="screen-reader-text">LinkedIn</span>
                         </a>
                       </li>
                       <li
                         id="menu-item-158"
                         className="menu-item menu-item-type-custom menu-item-object-custom menu-item-158"
                       >
-                        <a href="http://twitter.com/#">
-                          <span className="screen-reader-text">twitter</span>
+                        <a
+                          href="https://github.com/naniitevez"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/images/icons/icono-github.png" alt="" />
+
+                          <span className="screen-reader-text">GitHub</span>
                         </a>
                       </li>
                       <li
                         id="menu-item-159"
                         className="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"
                       >
-                        <a href="http://pinterest.com/#">
-                          <span className="screen-reader-text">pinterest</span>
+                        <a
+                          href="https://twitter.com/NicoleTevez1"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/images/icons/icono-twitter.png" alt="" />
+                          <span className="screen-reader-text">Twitter</span>
                         </a>
                       </li>
                     </ul>
@@ -72,7 +82,7 @@ const MainFooter: React.FC<MainFooterProps> = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="sydney-credits">
-                  Copyright ©2020 Atheme. All rights reserved
+                  Copyright ©2022 Nicole Tevez. All rights reserved
                 </div>
               </div>
               <div className="col-md-6"></div>
