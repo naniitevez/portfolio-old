@@ -30,7 +30,7 @@ const AboutMeSection: React.FC<AboutMeSectionProps> = () => {
                     <div className="elementor-text-editor elementor-clearfix">
                       <p>
                         Comencé a estudiar programación 🤓️ durante la pandemia,
-                        dejando mi carrera (psicología) de lado cuando mi vida y
+                        dejando mi entonces carrera (psicología) de lado cuando mi vida y
                         la vida de todos estaban cambiando, y ni siquiera
                         imaginé que iba a encontrar algo que me guste hacer
                         tanto como crear cosas y verlas crecer 👐🏻️.
@@ -63,7 +63,7 @@ const AboutMeSection: React.FC<AboutMeSectionProps> = () => {
                         hagan ruido de fondo👀️.
                       </p>
                       <p>
-                        Y hace poco me sume a la organización de la comunidad de
+                        Y también soy parte de organización de la comunidad de
                         React Buenos Aires 💪🏻️.
                       </p>
                     </div>
