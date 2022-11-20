@@ -22,7 +22,7 @@ const ResumeImage: React.FC<ResumeImageProps> = () => {
                 <img
                   width="600"
                   height="600"
-                  src="./images/profile-image.png"
+                  src="./images/profile-image.jpg"
                   className="attachment-full size-full"
                   alt=""
                   loading="lazy"
