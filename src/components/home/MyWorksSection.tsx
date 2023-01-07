@@ -133,6 +133,17 @@ const MyWorksSection: React.FC<MyWorksSectionProps> = () => {
                           description="Sitio Web"
                           githubLink="https://github.com/clickmodaydeporte/clickmodaydeporte.github.io"
                         />
+
+                        <PortfolioProject
+                          containerId="f76fcf5"
+                          itemId="adf5da0"
+                          imageSrc="/images/projects/Rest-Of-My-Cloud.png"
+                          alt="Imágen del blog Rest Of My Cloud"
+                          hrefLink="https://restofmycloud.com/"
+                          title="Rest Of My Cloud"
+                          description="Blog"
+                          githubLink="private"
+                        />
                       </div>
                     </div>
                   </section>

@@ -16,7 +16,7 @@ const BannerSection: React.FC<BannerSectionProps> = () => {
       <div className="elementor-container elementor-column-gap-default">
         <div className="elementor-row">
           <HeaderPresentation
-            description="Desarrolladora React | Ionic Developer y Co-Organizadora de la comunidad React en Buenos Aires ."
+            description="Desarrolladora React y Co-Organizadora de la comunidad React en Buenos Aires ."
           />
           <ResumeImage />
         </div>
